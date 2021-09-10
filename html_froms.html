@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head> 
+        <tittle>Forms</tittle>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="html,programacion,css, javascript, etc...">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="html5.css" rel="stylesheet">
+        <img src="logo.png" alt="">
+    </head>
+    <body background="7.jpg">
+    </form action="#">
+    <p>Enter name: <b></b> </p>
+    <input type="text" name="" id="" placeholder="Name: " required>
+    <p>Enter user: <b></b></p>
+    <input type="text" name="" id="" placeholder="User: " required>
+    <p>Enter Password: <b></b></p>
+    <input type="password" name="" id="" placeholder="Password: " required>
+    <b></b>
+    <input type="text" name="" id="" placeholder="Credit Card: " required>
+    <b></b>
+    <input type="email" name="" id="" placeholder="Email: " required> <b></b>
+    <input type="submit" name="" id="">
+
+    <br>
+    <br>
+    <input type="range" value="50" min="0" max="100" oninput="this.nextElementSibling.value = this.value">
+    <output > 50 </output>
+    <br>
+    <br>
+
+    <input type="date" name="" id="">
+    <br>
+    <br>
+    <input type="submit" name="" id="">
+    <br>
+    <br>
+    <input type="color">
+    <br>
+    <br>
+    <input type="number">
+    <br>
+    <br>
+    <audio controls>
+        <source src="camaleon.WAV"> 
+    </audio>
+<br>
+<br>
+
+<video src="Frank_2.mp4" width="640" height="480" controls></video>
+
+<br>
+<br>
+
+<p style ="color: gray; font-size: xx-large;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> --> Dietary Option <--</p>
+
+<ol> <p style ="color: green; font-size: large;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Proteins </p> </ol>
+        <ul>
+            <li> <p style ="color:cadetblue ; font-size: medium;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">  -- Red Meat -- </p> </li>
+            <img src="Red_meat.jpg" width="200" height="150" alt="">
+        </ul>
+        <ul>
+            <br>
+            <li> <p style ="color: cadetblue; font-size: medium;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> --- White Meat --- </p> </li>
+            <img src="White_meat.jpg" width="200" height="150" alt="">
+            <br>
+        </ul>
+</ol>
+<br>
+<br>
+<br>
+<ol> <p style ="color: green; font-size: large;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Carbohydrates </p> </ol>
+        
+        <ul>
+            <li> <p style ="color: cadetblue; font-size: medium;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> --- White Rice --- </p> </li>
+            
+            <img src="White_Rice.jpg" width="200" height="150" alt="">
+        </ul>
+        <ul>
+            <br>
+            <li> <p style ="color: cadetblue; font-size: medium;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> --- Quinoa --- </p> </li>
+            
+            <img src="mediterranean-quinoa-salad-sq.jpg" width="200" height="150" alt="">
+            <br>
+        </ul>
+<br>
+<br>
+<br>
+<ol> <p style ="color: green; font-size: large;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Vegetables </p> </ol>
+
+        <ul>
+            <li> <p style ="color: cadetblue; font-size: medium;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> --- Lettuce --- </p> </li>
+            <img src="Lettuce.jpg" width="200" height="150" alt="">
+        </ul>
+        <ul>
+            <br>
+            <li> <p style ="color: cadetblue; font-size: medium;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> --- Tomato --- </p> </li>
+            <img src="Tomato.jpeg" width="200" height="150" alt="">
+            <br>
+        </ul>
+</ol>
+    
+
+
+
+
+
+
+</form>
+<script>
+    addEventListener('load',inicio,false);
+    function inicio() {
+        document.getElementById('temper').addEventListener('change',cambioTemperatura,false);
+    }
+    function cambioTemperatura(){
+        document.getElementById('temper').innerHTML=document.getElementById('temper').value;
+    }
+</script>
+
+</body>
+
+</html>
